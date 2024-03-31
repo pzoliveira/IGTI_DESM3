@@ -1,0 +1,37 @@
+db.createCollection("ocorrencia", {
+validator: {
+$jsonSchema: {
+bsonType: "object",
+properties: {
+id_ocorrencia: {
+bsonType: "int",
+description: "is not required"
+},
+classificacao: {
+bsonType: "string",
+description: "is not required"
+},
+cidade: {
+bsonType: "string",
+description: "is not required"
+},
+uf: {
+bsonType: "string",
+description: "is not required"
+},
+pais: {
+bsonType: "string",
+description: "is not required"
+},
+data: {
+bsonType: "date",
+description: "is not required"
+},
+num_recomendacoes: {
+bsonType: "int",
+description: "is not required"
+}
+}
+}
+}
+})

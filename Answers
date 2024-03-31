@@ -1,0 +1,202 @@
+Answers to the challenge #3
+
+g) Na importação dos dados para a collection aeronave:
+
+1) Sem ajuste dos limites inferiores das chaves assentos e ano de fabricação:
+
+Foram excluídos 4433 documentos.
+
+2) Com ajuste desses limites
+
+Foram excluídos 4854.
+
+3) Com o tipo alterado para String para o campo Modelo
+
+Foram carregados 5213 documentos.
+
+h) Para a collecion ocorrencia_tipo foram importados 5244 documentos sem erros de validação.
+
+i) Na importação dos dados para a collection ocorrencia, foram importados 5155 documentos com sucesso.
+
+Respostas:
+
+1) 4433 documentos foram removidos.
+
+2) 5155 documentos carregados.
+
+3) 5244 documentos.
+
+4) 5213 documentos.
+
+5)
+{  matricula: 'PTNQX'}
+{  matricula: 'PTLVI'}
+{  matricula: 'PPPTO'}
+{  matricula: 'PRLGJ'}
+{  matricula: 'PRMAA'}
+
+6)
+{
+  _id: ObjectId('66097a777199521e8d80152c'),
+  id_ocorrencia_a: 43325,
+  matricula: 'PTWRU',
+  operador_categoria: 'TAXI AEREO',
+  tipo_veiculo: 'ANFIBIO',
+  fabricante: 'CESSNA AIRCRAFT',
+  modelo: '208 ANFIBIO',
+  motor_tipo: 'TURBOELICE',
+  motor_quantidade: 'MONOMOTOR',
+  assentos: 10,
+  ano_fabricacao: 1998,
+  pais_fabricante: 'BRASIL',
+  registro_segmento: 'TAXI AEREO',
+  voo_origem: 'FORA DE AERODROMO',
+  voo_destino: 'FORA DE AERODROMO',
+  fase_operacao: 'TAXI'
+}
+{
+  _id: ObjectId('66097a777199521e8d801558'),
+  id_ocorrencia_a: 43473,
+  matricula: 'PRLEH',
+  operador_categoria: '***',
+  tipo_veiculo: 'ANFIBIO',
+  fabricante: 'LAKE AIRCRAFT',
+  modelo: 'LA-4-200',
+  motor_tipo: 'PISTAO',
+  motor_quantidade: 'MONOMOTOR',
+  assentos: 4,
+  ano_fabricacao: 1980,
+  pais_fabricante: 'BRASIL',
+  registro_segmento: 'PARTICULAR',
+  voo_origem: 'FORA DE AERODROMO',
+  voo_destino: 'FORA DE AERODROMO',
+  fase_operacao: 'CORRIDA APOS POUSO'
+}
+{
+  _id: ObjectId('66097a777199521e8d801728'),
+  id_ocorrencia_a: 45062,
+  matricula: 'PTWAF',
+  operador_categoria: '***',
+  tipo_veiculo: 'ANFIBIO',
+  fabricante: 'CONSOLIDATED',
+  modelo: 'LAKE 250',
+  motor_tipo: 'PISTAO',
+  motor_quantidade: 'MONOMOTOR',
+  assentos: 4,
+  ano_fabricacao: 1990,
+  pais_fabricante: 'BRASIL',
+  registro_segmento: 'PARTICULAR',
+  voo_origem: 'FORA DE AERODROMO',
+  voo_destino: 'FORA DE AERODROMO',
+  fase_operacao: 'POUSO'
+}
+{
+  _id: ObjectId('66097a787199521e8d801b01'),
+  id_ocorrencia_a: 48658,
+  matricula: 'PPXLR',
+  operador_categoria: 'EXPERIMENTAL',
+  tipo_veiculo: 'ANFIBIO',
+  fabricante: 'JOHN SEELY',
+  modelo: 'COMPAIR 8 ANFHIBIAN',
+  motor_tipo: 'PISTAO',
+  motor_quantidade: 'MONOMOTOR',
+  assentos: 8,
+  ano_fabricacao: 2006,
+  pais_fabricante: 'BRASIL',
+  registro_segmento: 'EXPERIMENTAL',
+  voo_origem: 'FORA DE AERODROMO',
+  voo_destino: 'FORA DE AERODROMO',
+  fase_operacao: 'DECOLAGEM'
+}
+{
+  _id: ObjectId('66097a797199521e8d801c82'),
+  id_ocorrencia_a: 50753,
+  matricula: 'PTZSR',
+  operador_categoria: 'EXPERIMENTAL',
+  tipo_veiculo: 'ANFIBIO',
+  fabricante: '***',
+  modelo: 'SEAWIND AVIAO',
+  motor_tipo: 'PISTAO',
+  motor_quantidade: 'MONOMOTOR',
+  assentos: 1,
+  ano_fabricacao: 1900,
+  pais_fabricante: 'BRASIL',
+  registro_segmento: 'EXPERIMENTAL',
+  voo_origem: 'FORA DE AERODROMO',
+  voo_destino: 'FORA DE AERODROMO',
+  fase_operacao: 'CIRCUITO DE TRAFEGO'
+}
+{
+  _id: ObjectId('66097a797199521e8d801dac'),
+  id_ocorrencia_a: 51655,
+  matricula: 'PTWRU',
+  operador_categoria: 'TAXI AEREO',
+  tipo_veiculo: 'ANFIBIO',
+  fabricante: 'CESSNA AIRCRAFT',
+  modelo: '208 ANFIBIO',
+  motor_tipo: 'TURBOELICE',
+  motor_quantidade: 'MONOMOTOR',
+  assentos: 10,
+  ano_fabricacao: 1998,
+  pais_fabricante: 'BRASIL',
+  registro_segmento: 'TAXI AEREO',
+  voo_origem: 'EDUARDO GOMES',
+  voo_destino: 'FORA DE AERODROMO',
+  fase_operacao: 'CORRIDA APOS POUSO'
+}
+{
+  _id: ObjectId('66097a797199521e8d801e8b'),
+  id_ocorrencia_a: 52539,
+  matricula: 'RA0976G',
+  operador_categoria: '***',
+  tipo_veiculo: 'DIRIGIVEL',
+  fabricante: 'MAULE AIRCRAFT',
+  modelo: '***',
+  motor_tipo: 'PISTAO',
+  motor_quantidade: 'MONOMOTOR',
+  assentos: 1,
+  ano_fabricacao: 1900,
+  pais_fabricante: 'RUSSIA',
+  registro_segmento: '***',
+  voo_origem: 'FORA DE AERODROMO',
+  voo_destino: 'FORA DE AERODROMO',
+  fase_operacao: 'CRUZEIRO'
+}
+{
+  _id: ObjectId('66097a797199521e8d801e8c'),
+  id_ocorrencia_a: 52539,
+  matricula: 'SPBBP',
+  operador_categoria: '***',
+  tipo_veiculo: 'DIRIGIVEL',
+  fabricante: 'MAULE AIRCRAFT',
+  modelo: '***',
+  motor_tipo: 'PISTAO',
+  motor_quantidade: 'MONOMOTOR',
+  assentos: 1,
+  ano_fabricacao: 1900,
+  pais_fabricante: 'POLONIA',
+  registro_segmento: '***',
+  voo_origem: 'FORA DE AERODROMO',
+  voo_destino: 'FORA DE AERODROMO',
+  fase_operacao: 'CRUZEIRO'
+}
+
+7)
+AVIAO		4195
+TRIKE		4
+HELICOPTERO	600
+***		76
+BALAO		1
+PLANADOR	15
+ULTRALEVE	307
+HIDROAVIAO	1
+DIRIGIVEL	2
+ANFIBIO	12
+
+8) 3 recomendações
+
+9) 
+
+10) 'Media Nºs Recomendacoes=': 0.3258971871968962
+
+

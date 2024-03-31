@@ -1,0 +1,66 @@
+db.createCollection("aeronave", {
+validator: {
+$jsonSchema: {
+bsonType: "object",
+required: ["assentos", "ano_fabricacao"],
+properties: {
+id_ocorrencia_a: {
+bsonType: "int",
+description: "is not required"
+},
+matricula: {
+bsonType: "string",
+description: "is not required"
+},
+operador_categoria: {
+bsonType: "string"
+},
+tipo_veiculo: {
+bsonType: "string",
+description: "is not required"
+},
+fabricante: {
+bsonType: "string",
+description: "is not required"
+},
+modelo: {
+bsonType: "string",
+description: "is not required"
+},
+motor_tipo: {
+bsonType: "string"
+},
+motor_quantidade: {
+bsonType: "string"
+},
+assentos: {
+bsonType: "int",
+minimum: 0,
+maximum: 1000,
+description: "must be an integer in [ 1, 1000 ] and is required"
+},
+ano_fabricacao: {
+bsonType: "int",
+minimum: 1900,
+maximum: 2030,
+description: "must be an integer in [ 1950, 2030 ] and is required"
+},
+pais_fabricante: {
+bsonType: "string"
+},
+registro_segmento: {
+bsonType: "string"
+},
+voo_origem: {
+bsonType: "string"
+},
+voo_destino: {
+bsonType: "string"
+},
+fase_operacao: {
+bsonType: "string"
+}
+}
+}
+}
+})
